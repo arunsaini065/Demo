@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/all_videos"
+            android:icon="@drawable/ic_videocam_black2_24dp"
+            android:title="All videos" />
+        <item
+            android:id="@+id/all_photos"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="All photos" />
+        <item
+            android:id="@+id/all_music"
+            android:icon="@drawable/ic_music_note_black_24dp"
+            android:title="All music" />
+        <item
+            android:id="@+id/all_folder"
+            android:icon="@drawable/ic_folder_black_24dp"
+            android:title="All folders" />
+    </group>
+   <item android:title="other">
+       <menu>
+            <item
+                android:id="@+id/share_app"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/Setting"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Setting" />
+</menu>
+   </item>
+    </menu>
+

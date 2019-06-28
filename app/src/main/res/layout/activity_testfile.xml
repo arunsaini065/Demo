@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appbackground"
+    tools:context=".TestFile">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/first_name"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:hint="First Name"
+        android:textStyle="italic"
+        android:textColorHint="#9081C2"
+        android:ems="10"
+        />
+    <EditText
+        android:id="@+id/last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/first_name"
+        android:textColorHint="#9081C2"
+        android:hint="Last Name"
+        android:textStyle="italic"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        />
+    <EditText
+        android:id="@+id/enter_your_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/last_name"
+        android:ems="10"
+        android:textColorHint="#9081C2"
+        android:textStyle="italic"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:hint="Enter Your Email"
+        />
+
+
+    <EditText
+        android:id="@+id/new_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textStyle="italic"
+        android:layout_marginLeft="10dp"
+        android:textColorHint="#9081C2"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/enter_your_email"
+        android:hint="New password" />
+
+    <EditText
+        android:id="@+id/re_enter_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColorHint="#9081C2"
+        android:hint="Re-Enter Password"
+        android:textStyle="italic"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/new_password"
+        />
+   <androidx.cardview.widget.CardView
+       android:layout_height="50dp"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@+id/re_enter_password"
+       android:layout_marginTop="50dp"
+       app:cardCornerRadius="50dp"
+       app:cardBackgroundColor="#D840D8"
+       android:layout_width="100dp"
+       android:id="@+id/done"
+       android:onClick="onFirstName"
+       >
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="32dp"
+           android:layout_marginTop="15dp"
+           >
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerHorizontal="true"
+               android:textSize="15dp"
+               android:text="Done"
+               />
+
+       </RelativeLayout>
+
+   </androidx.cardview.widget.CardView>
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.Toolbar>
+</RelativeLayout>
