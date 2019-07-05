@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+     android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:id="@+id/initialamount"
+    android:layout_width="400dp"
+    android:layout_marginTop="10dp"
+    android:background="#DDDFDFDB"
+    android:layout_height="50dp">
+   <TextView
+       android:id="@+id/initialamounttext"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="10dp"
+       android:text="Initial Amount"
+       android:textColor="#FF000000"
+       android:textSize="15dp" />
+   <EditText
+       android:id="@+id/initialamountedit"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="100dp"
+       android:ems="10"
+       android:textSize="20dp" />
+</LinearLayout>
+   <LinearLayout
+       android:layout_marginTop="20dp"
+       android:id="@+id/rategst"
+       android:layout_width="400dp"
+       android:background="#DDDFDFDB"
+       android:layout_height="50dp">
+      <TextView
+          android:id="@+id/rategsttext"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:text="Rate of GST(%)"
+          android:textColor="#FF000000"
+          android:textSize="15dp" />
+      <EditText
+          android:id="@+id/rategstedit"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="93dp"
+          android:ems="10"
+          android:textSize="20dp" />
+   </LinearLayout>
+   <LinearLayout
+       android:layout_marginTop="20dp"
+       android:layout_width="wrap_content"
+       android:orientation="horizontal"
+       android:id="@+id/radiobutton"
+       android:layout_height="wrap_content">
+      <RadioGroup
+          android:id="@+id/radiogroup"
+          android:layout_width="wrap_content"
+          android:orientation="horizontal"
+          android:layout_height="wrap_content">
+         <RadioButton
+             android:id="@+id/radiobutton1"
+             android:layout_width="wrap_content"
+             android:layout_marginLeft="40dp"
+             android:text="Add GST +"
+             android:layout_height="wrap_content" />
+
+         <RadioButton
+             android:id="@+id/radiobutton2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Remove GST -"
+             android:layout_marginLeft="75dp" />
+      </RadioGroup>
+   </LinearLayout>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_marginTop="20dp"
+       android:text="calculate GST"
+       android:layout_marginLeft="20dp"
+       android:background="#F3501F"
+       android:layout_marginRight="20dp"
+       android:layout_height="wrap_content"
+       />
+   <LinearLayout
+       android:layout_marginTop="30dp"
+       android:id="@+id/netamount"
+       android:layout_width="400dp"
+       android:background="#DDDFDFDB"
+       android:layout_height="50dp">
+      <TextView
+          android:id="@+id/netamounttext"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:text="Net Amount"
+          android:textColor="#FF000000"
+          android:textSize="15dp" />
+      <TextView
+          android:id="@+id/netamountedit"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="93dp"
+          android:ems="10"
+          android:textSize="20dp" />
+   </LinearLayout>
+   <LinearLayout
+       android:layout_marginTop="20dp"
+       android:id="@+id/gstamount"
+       android:layout_width="400dp"
+       android:background="#DDDFDFDB"
+       android:layout_height="50dp">
+      <TextView
+          android:id="@+id/gstamounttext"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:text="GST Amount"
+          android:textColor="#FF000000"
+          android:textSize="15dp" />
+      <TextView
+          android:id="@+id/gstamountedit"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="93dp"
+          android:ems="10"
+          android:textSize="20dp" />
+   </LinearLayout>
+   <LinearLayout
+       android:layout_marginTop="20dp"
+       android:id="@+id/totalamount"
+       android:layout_width="400dp"
+       android:background="#DDDFDFDB"
+       android:layout_height="50dp">
+      <TextView
+          android:id="@+id/totalamounttext"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:text="Total Amount"
+          android:textColor="#FF000000"
+          android:textSize="15dp" />
+      <TextView
+          android:id="@+id/totalamountedit"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="93dp"
+          android:ems="10"
+          android:textSize="20dp" />
+   </LinearLayout>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_marginTop="20dp"
+       android:textColor="#FF000000"
+       android:layout_marginLeft="40dp"
+       android:text="(CGST:6.0%=2415.48),(SGST:6.0%=2415.48)"
+       android:layout_height="wrap_content" />
+   <Button
+       android:layout_width="match_parent"
+       android:layout_marginTop="30dp"
+       android:text="share screenshot"
+       android:layout_marginLeft="20dp"
+       android:background="#F3501F"
+       android:layout_marginRight="20dp"
+       android:layout_height="wrap_content"
+       />
+</LinearLayout>
