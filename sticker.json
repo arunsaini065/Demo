@@ -2,7 +2,7 @@
  {
                 "datatype": "sticker",
                 "categoryName": "1",
-                "categoryId": "22",
+                "categoryId": "1",
                 "categoryImage": "https://firebasestorage.googleapis.com/v0/b/ddsthra.appspot.com/o/stickers%2F0%2F1%20(13).png?alt=media&token=0f60dac8-bc50-4705-92f4-130aca2accc3",
                 "isPremium": "true",
                 "images": [
@@ -25,7 +25,7 @@
             },{
                 "datatype": "sticker",
                 "categoryName": "2",
-                "categoryId": "aa",
+                "categoryId": "2",
                 "categoryImage": "https://firebasestorage.googleapis.com/v0/b/ddsthra.appspot.com/o/bg_images%2Fbg_1.png?alt=media&token=3a2995c7-4ddf-4c03-939e-31e7d14be679",
                 "isPremium": "true",
                 "images": [
@@ -48,7 +48,7 @@
             },{
                 "datatype": "sticker",
                 "categoryName": "3",
-                "categoryId": "aa",
+                "categoryId": "3",
                 "categoryImage": "https://firebasestorage.googleapis.com/v0/b/ddsthra.appspot.com/o/stickers%2F1%2FBouquet.png?alt=media&token=14aab3ab-8469-47ae-a340-21951f3bb258",
                 "isPremium": "true",
                 "images": [
@@ -71,7 +71,7 @@
             },{
                 "datatype": "sticker",
                 "categoryName": "4",
-                "categoryId": "aa",
+                "categoryId": "4",
                 "categoryImage": "https://firebasestorage.googleapis.com/v0/b/ddsthra.appspot.com/o/bg_images%2Fbg_1.png?alt=media&token=3a2995c7-4ddf-4c03-939e-31e7d14be679",
                 "isPremium": "true",
                 "images": [
