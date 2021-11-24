@@ -25,8 +25,8 @@
             },{
                 "datatype": "sticker",
                 "categoryName": "2",
-                "categoryId": "2",
-                "categoryImage": "https://firebasestorage.googleapis.com/v0/b/ddsthra.appspot.com/o/bg_images%2Fbg_1.png?alt=media&token=3a2995c7-4ddf-4c03-939e-31e7d14be679",
+                "categoryId": "2sdr",
+                "categoryImage": "https://firebasestorage.googleapis.com/v0/b/ddsthra.appspot.com/o/stickers%2F0%2F1%20(27).png?alt=media&token=93d695b1-d5b9-4a6f-a568-6d970a11d2b1",
                 "isPremium": "true",
                 "images": [
                     {
